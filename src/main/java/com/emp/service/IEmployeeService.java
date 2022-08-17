@@ -12,5 +12,11 @@ public interface IEmployeeService {
 	public List<Employee> getAllEmployees();
 	
 	Optional<Employee> getEmployee(Integer id);
+	
+	public void deleteEmployee(Integer id);
+
+	public List<Employee> deleteAllEmployees();
+	
+	public Employee updateEmployee(Employee employee, Integer id);
 
 }
